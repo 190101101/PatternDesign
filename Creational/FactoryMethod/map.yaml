@@ -1,0 +1,13 @@
+abstract class Creator
+class ConcreteCreator1 extends Сreator
+class ConcreteCreator2 extends Сreator
+interface Product
+class ConcreteProduct1 implements Product
+class ConcreteProduct2 implements Product
+
+abstract class SocialNetworkPoster
+class FacebookPoster extends SocialNetworkPoster
+class LinkedInPoster extends SocialNetworkPoster
+interface SocialNetworkConnector
+class FacebookConnector implements SocialNetworkConnector
+class LinkedInConnector implements SocialNetworkConnector
