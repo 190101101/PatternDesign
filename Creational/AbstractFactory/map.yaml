@@ -1,0 +1,29 @@
+abstract class AbstractFactory
+  abstract public function createProductA:
+  abstract public function createProductB:
+
+class ConcreteFactory1 extends AbstractFactory
+  public function createProductA:
+  public function createProductB:
+
+class ConcreteFactory2 extends AbstractFactory
+  public function createProductA:
+  public function createProductB:
+
+abstract class AbstractProductA
+  abstract public function operationA:
+
+class ConcreteProductA1 extends AbstractProductA
+  public function operationA:
+
+class ConcreteProductA2 extends AbstractProductA
+  public function operationA:
+
+abstract class AbstractProductB
+  abstract public function operationB:
+
+class ConcreteProductB1 extends AbstractProductB
+  public function operationB:
+
+class ConcreteProductB2 extends AbstractProductB
+  public function operationB:
